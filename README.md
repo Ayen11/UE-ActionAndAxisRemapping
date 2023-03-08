@@ -1,5 +1,3 @@
-
-
 I made a tutorial on how to create this here (https://www.youtube.com/watch?v=OdbTsDc3pC8) explaining how to create those macros. The `.uasset` in here isn't the same as the tutorial but it was made using the same technique and is used in my game IDIOTIC THE GAME (https://store.steampowered.com/app/1746520/).
 
 
@@ -15,7 +13,7 @@ I made a tutorial on how to create this here (https://www.youtube.com/watch?v=Od
 
 ## For Action Mapping
 
-* Connect to the event we added to the widget the macro `Action Rebinding` 
+* Connect to the event we added to the widget the macro `Action Rebinding`
 * The `Selected Key` output should be connected to `Input Chord`
 * In `In Action Name` paste the name of the mapping you want to edit from `project settings/input` you made in the third step (It has to be the exact same name otherwise it won't work)
 * Set `Reset Key?` to false
@@ -34,10 +32,10 @@ I made a tutorial on how to create this here (https://www.youtube.com/watch?v=Od
 ## To Reset Key Mappings
 
 * Add to the `On Clicked (Button_Reset)` event either `Action Mapping` or `Axis Mapping` node
-* Set the name of the mapping you want ot reset in `In Axis Name`
+* Set the name of the mapping you want to reset in `In Axis Name`
 * Set `Reset Key?` to True
 * Set the default Key to whatever you want the default key to be
-#### IF YOURE RESETTING AXIS MAPPING:
+#### IF YOU'RE RESETTING AXIS MAPPING:
 * Connect to `Input Chord` the variable `Selected Key` (it's an empty value but UE just throws errors if this isn't connected. Feel Free to fix it and lmk how if you can)
 * Set the scale to either 1.0 or -1.0 depending on which mapping value you want to edit
 
@@ -51,3 +49,5 @@ I made a tutorial on how to create this here (https://www.youtube.com/watch?v=Od
 
 
 NOTE: this was made using UE5 from source. It works on UE 5.0.3 (and should for future builds too) but I'm unsure whether or not it'll work on UE4 versions. If you are using UE4 please refer to my tutorial (https://www.youtube.com/watch?v=OdbTsDc3pC8) how to make this widget instead as the concept and syntax should be the same.
+
+
