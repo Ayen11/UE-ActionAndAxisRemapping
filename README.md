@@ -10,8 +10,7 @@ I made a tutorial on how to create this here (https://www.youtube.com/watch?v=Od
 * Paste it inside your project's content file
 * In `project settings/input` add your action and axis mappings and name them
 * Inside the widget, add or edit an InputKeySelector and add an On Key Selected event
-* ???
-* Profit
+
 
 
 ## For Action Mapping
@@ -44,8 +43,11 @@ IF YOURE RESETTING AXIS MAPPING:
 
 ## To Make The Buttons Show The Current Key Mapping
 
-* 
-
+* Add to `Event Construct` and `Update button names` the macro `Get & Set Action Name`
+* Connect the reference of the `Input Key Selector` of your choosing to the `self` input
+* Set the `In Action Name` input to the exact same name as the mapping related to the `Input Key Selector`
+* ???
+* Profit
 
 
 NOTE: this was made using UE5 from source. It works on UE 5.0.3 (and should for future builds too) but I'm unsure whether or not it'll work on UE4 versions. If you are using UE4 please refer to my tutorial (https://www.youtube.com/watch?v=OdbTsDc3pC8) how to make this widget instead as the concept and syntax should be the same.
