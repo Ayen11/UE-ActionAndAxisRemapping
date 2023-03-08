@@ -38,8 +38,7 @@ I made a tutorial on how to create this here (https://www.youtube.com/watch?v=Od
 * Set the name of the mapping you want ot reset in `In Axis Name`
 * Set `Reset Key?` to True
 * Set the default Key to whatever you want the default key to be
-
-*IF YOURE RESETTING AXIS MAPPING: 
+*IF YOURE RESETTING AXIS MAPPING:*
 * Connect to `Input Chord` the variable `Selected Key` (it's an empty value but UE just throws errors if this isn't connected. Feel Free to fix it and lmk how if you can)
 * Set the scale to either 1.0 or -1.0 depending on which mapping value you want to edit
 
