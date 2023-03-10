@@ -17,7 +17,7 @@ I made a tutorial on how to create this here (https://www.youtube.com/watch?v=Od
 * The `Selected Key` output should be connected to `Input Chord`
 * In `In Action Name` paste the name of the mapping you want to edit from `project settings/input` you made in the third step (It has to be the exact same name otherwise it won't work)
 * Set `Reset Key?` to false
-* The `Default Key` input shouldn't matter at this stage if `Reset Key?` is false, but I recommend setting it to none here jsut in case
+* The `Default Key` input shouldn't matter at this stage if `Reset Key?` is false, but I recommend setting it to none here just in case
 
 
 ## For Axis Mapping
