@@ -13,7 +13,7 @@ I made a tutorial on how to create this here (https://www.youtube.com/watch?v=Od
 
 ## For Action Mapping
 
-* Connect to the event we added to the widget the macro `Action Rebinding`
+* Connect the event we added to the widget the macro `Action Rebinding`
 * The `Selected Key` output should be connected to `Input Chord`
 * In `In Action Name` paste the name of the mapping you want to edit from `project settings/input` you made in the third step (It has to be the exact same name otherwise it won't work)
 * Set `Reset Key?` to false
