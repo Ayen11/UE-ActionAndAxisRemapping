@@ -50,4 +50,6 @@ I made a tutorial on how to create this here (https://www.youtube.com/watch?v=Od
 
 NOTE: this was made using UE5 from source. It works on UE 5.0.3 (and should for future builds too) but I'm unsure whether or not it'll work on UE4 versions. If you are using UE4 please refer to my tutorial (https://www.youtube.com/watch?v=OdbTsDc3pC8) how to make this widget instead as the concept and syntax should be the same.
 
+Note 2 the sequel: this will not work with the enhanced input system implemented in 5.1. It still works fine with the normal input system tho.
+
 
