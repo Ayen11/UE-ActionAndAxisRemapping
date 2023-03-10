@@ -22,11 +22,11 @@ I made a tutorial on how to create this here (https://www.youtube.com/watch?v=Od
 
 ## For Axis Mapping
 
-* Connect to the event we added to the widget the macro `Axis Rebinding`
+* Connect the event we added to the widget the macro `Axis Rebinding`
 * The `Selected Key` output should be connected to `Input Chord`
 * The `Scale` value should be either 1.0 or -1.0, depending on the axis you want to edit. (there should be 2 events & nodes for each axis mapping with the same name - see examples in file)
 * Set `Reset Key?` to False
-* The `Default Key` input shouldn't matter at this stage if `Reset Key?` is false, but I recommend setting it to none here jsut in case
+* The `Default Key` input shouldn't matter at this stage if `Reset Key?` is false, but I recommend setting it to none here just in case
 
 
 ## To Reset Key Mappings
